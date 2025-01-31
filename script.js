@@ -201,11 +201,11 @@ elems.forEach(function (elem) {
 
 Shery.mouseFollower({
 
-  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  // ease: "cubic-bezier(0.23, 1, 0.320, 1)",
 
 
 });
-Shery.textAnimate(".page2 h1" /* Element to target.*/, {
+Shery.textAnimate(".page2 h1" , {
   //Parameters are optional.
   style: 1,
   y: 1,
